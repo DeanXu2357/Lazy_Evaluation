@@ -1,4 +1,4 @@
-### https://github.com/DeanXu2357/Lazy_Evaluation/blob/master/pic/寫在前面
+### 寫在前面
 
 會寫這篇是因為看到 Recca大轉貼燈哥關於 lazy-evaluation 的文章（[ here ](https://oomusou.io/fp/lazy-evaluation/)），因為文章是用 .NET 寫的，基於複習看到的觀念~~（還有 .NET code 真的很難懂，所以寫成 PHP 幫助自己理解）~~ ，所以讓我有了想寫 PHP 版的衝動。
 
