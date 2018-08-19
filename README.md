@@ -1,4 +1,4 @@
-### 寫在前面
+### https://github.com/DeanXu2357/Lazy_Evaluation/blob/master/pic/寫在前面
 
 會寫這篇是因為看到 Recca大轉貼燈哥關於 lazy-evaluation 的文章（[ here ](https://oomusou.io/fp/lazy-evaluation/)），因為文章是用 .NET 寫的，基於複習看到的觀念~~（還有 .NET code 真的很難懂，所以寫成 PHP 幫助自己理解）~~ ，所以讓我有了想寫 PHP 版的衝動。
 
@@ -38,7 +38,7 @@
 
 執行程式碼不變，讓我們看看結果如何。
 
-![Lazy Evaluation 執行結果](/tmp/1534690863374.png)
+![Lazy Evaluation 執行結果](https://github.com/DeanXu2357/Lazy_Evaluation/blob/master/pic/1534690863374.png)
 
 結果不變，最後都是each我們想看到的3 ,9 ，但是程式的執行順序很神奇的不一樣了，就我理解就是程式到了最後 each 時才真的去跟 iterable 的物件（也就是 $list ）去要東西執行，中間的 map 和 filter 並沒有真的去執行和傳值，所以echo並沒有被執行到。
 
