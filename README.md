@@ -10,19 +10,19 @@
 
 文章開始，有三個靜態方法，分別是 ```map(遍歷每個值，用傳入的匿名函數重新賦值)``` ,  ```filter(用傳入的匿名函數過濾陣列中的值)``` , 和 ```each(遍歷陣列中每個值，執行傳入的匿名函數)```
 
-![無 Lazy Evaluation 版本](/home/poyu/workspace/php/test_yield/pic/1534690050223.png)
+![無 Lazy Evaluation 版本](https://github.com/DeanXu2357/Lazy_Evaluation/blob/master/pic/1534690050223.png)
 
 
 
 然後我們建立新的陣列，裡面有整數 1, 2, 3，依照map所有值乘以三，filter過濾單數，each打印陣列中所有物件，這樣的順序執行
 
-![執行](/home/poyu/workspace/php/test_yield/pic/1534690374402.png)
+![執行](https://github.com/DeanXu2357/Lazy_Evaluation/blob/master/pic/1534690374402.png)
 
 
 
 執行結果：
 
-![執行結果](/home/poyu/workspace/php/test_yield/pic/1534690495739.png)
+![執行結果](https://github.com/DeanXu2357/Lazy_Evaluation/blob/master/pic/1534690495739.png)
 
 
 
@@ -32,7 +32,7 @@
 
 再來，我們要換成使用 Lazy Evaluation 的實做。
 
-![Lazy Evaluation 程式碼](/home/poyu/workspace/php/test_yield/pic/1534690673988.png)
+![Lazy Evaluation 程式碼](https://github.com/DeanXu2357/Lazy_Evaluation/blob/master/pic/1534690673988.png)
 
 中間只有 map 和 filter 函數用 yield 重構。
 
